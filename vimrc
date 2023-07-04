@@ -121,6 +121,7 @@ set fillchars+=vert:\      " Remove ugly vertical lines on window division
 if has ("termguicolors")   " When on, uses highlight-guifg
     set termguicolors      " > and highlight-guibg
 endif                      " > attributes inthe terminal
+set gfn=MesloLGS\ NF:h14
 
 "---- ---- ---- ---- Tabs & Trailing Spaces ---- ---- ---- ----"
 " Use ",<space>" to toggle number, colorcolumn, listchars and search highlight
