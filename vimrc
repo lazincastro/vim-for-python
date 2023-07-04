@@ -206,6 +206,11 @@ ca w!! w !sudo tee "%"
 
 "---- ---- ---- ---- Plugins Settings ---- ---- ---- ----"
 
+"" Lightline
+let g:lightline = {
+    \ 'colorscheme': 'dracula',
+    \}
+
 "" vim-gitgutter
 nmap <silent><F8> :GitGutterToggle<cr>
 let g:gitgutter_enabled = 0
