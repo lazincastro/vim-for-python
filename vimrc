@@ -48,6 +48,7 @@ Plug 'tpope/vim-surround'            " Quoting/parenthesizing made simple
 " Color Schemes
 Plug 'dracula/vim', { 'as': 'dracula' } " Dark theme
 Plug 'morhetz/gruvbox'                  " Gruvbox colorscheme
+Plug 'nordtheme/vim'                    " An arctic, north-bluish clean and elegant Vim theme
 
 call plug#end()
 
@@ -114,7 +115,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 "---- ---- ---- ---- Visual Settings ---- ---- ---- ----"
-colorscheme sorbet         " I love it that colorscheme
+colorscheme nord           " I love it that colorscheme
 set bg=dark                " Background used for highlight color
 set t_Co=256               " Enable 256 colors in Vim
 set fillchars+=vert:\      " Remove ugly vertical lines on window division
@@ -207,9 +208,9 @@ ca w!! w !sudo tee "%"
 "---- ---- ---- ---- Plugins Settings ---- ---- ---- ----"
 
 "" Lightline
-" let g:lightline = {
-"     \ 'colorscheme': 'dracula',
-"     \}
+let g:lightline = {
+    \ 'colorscheme': 'nord',
+    \}
 
 "" vim-gitgutter
 nmap <silent><F8> :GitGutterToggle<cr>
