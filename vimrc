@@ -38,7 +38,7 @@ endif
 Plug 'itchyny/lightline.vim'         " A light and configurable statusline/tabline
 Plug 'airblade/vim-gitgutter'        " Git diff gutter and stages/undoesks
 Plug 'machakann/vim-highlightedyank' " Make the yanked region apparent!
-Plug 'jiangmiao/auto-pairs'          " Vim plugin, insert or delete brackets, parens, quotes in pair 
+Plug 'jiangmiao/auto-pairs'          " Vim plugin, insert or delete brackets, parens, quotes in pair
 
 " Tim Pope Section
 Plug 'tpope/vim-commentary'          " Use 'gcc' to comment out a line
@@ -114,7 +114,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 "---- ---- ---- ---- Visual Settings ---- ---- ---- ----"
-colorscheme dracula        " I love it that colorscheme
+colorscheme sorbet         " I love it that colorscheme
 set bg=dark                " Background used for highlight color
 set t_Co=256               " Enable 256 colors in Vim
 set fillchars+=vert:\      " Remove ugly vertical lines on window division
@@ -207,9 +207,9 @@ ca w!! w !sudo tee "%"
 "---- ---- ---- ---- Plugins Settings ---- ---- ---- ----"
 
 "" Lightline
-let g:lightline = {
-    \ 'colorscheme': 'dracula',
-    \}
+" let g:lightline = {
+"     \ 'colorscheme': 'dracula',
+"     \}
 
 "" vim-gitgutter
 nmap <silent><F8> :GitGutterToggle<cr>
@@ -287,7 +287,7 @@ endfun
 fun! ToggleCC()
     if &cc == ''
       call Options()
-      set cc=80
+      set cc=100
     else
       call Options()
       set cc=
