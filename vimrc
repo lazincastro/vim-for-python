@@ -115,7 +115,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 "---- ---- ---- ---- Visual Settings ---- ---- ---- ----"
-colorscheme nord           " I love it that colorscheme
+colorscheme gruvbox        " I love it that colorscheme
 set bg=dark                " Background used for highlight color
 set t_Co=256               " Enable 256 colors in Vim
 set fillchars+=vert:\      " Remove ugly vertical lines on window division
@@ -209,7 +209,7 @@ ca w!! w !sudo tee "%"
 
 "" Lightline
 let g:lightline = {
-    \ 'colorscheme': 'nord',
+    \ 'colorscheme': 'apprentice',
     \}
 
 "" vim-gitgutter
