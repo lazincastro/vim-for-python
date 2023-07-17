@@ -39,6 +39,8 @@ Plug 'itchyny/lightline.vim'         " A light and configurable statusline/tabli
 Plug 'airblade/vim-gitgutter'        " Git diff gutter and stages/undoesks
 Plug 'machakann/vim-highlightedyank' " Make the yanked region apparent!
 Plug 'jiangmiao/auto-pairs'          " Vim plugin, insert or delete brackets, parens, quotes in pair
+Plug 'mechatroner/rainbow_csv'       " Highlight columns in CSV and TSV files and run queries in SQL-like language 
+Plug 'ap/vim-css-color'              " Preview colours in source code while editing
 
 " Tim Pope Section
 Plug 'tpope/vim-commentary'          " Use 'gcc' to comment out a line
@@ -46,9 +48,10 @@ Plug 'tpope/vim-vinegar'             " Simple file browser
 Plug 'tpope/vim-surround'            " Quoting/parenthesizing made simple
 
 " Color Schemes
-Plug 'dracula/vim', { 'as': 'dracula' } " Dark theme
-Plug 'morhetz/gruvbox'                  " Gruvbox colorscheme
-Plug 'nordtheme/vim'                    " An arctic, north-bluish clean and elegant Vim theme
+" Plug 'dracula/vim', { 'as': 'dracula' } " Dark theme
+" Plug 'morhetz/gruvbox'                  " Gruvbox colorscheme
+" Plug 'nordtheme/vim'                    " An arctic, north-bluish clean and elegant Vim theme
+Plug 'vim/colorschemes'                 " Colorschemes for Vim
 
 call plug#end()
 
@@ -115,7 +118,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 "---- ---- ---- ---- Visual Settings ---- ---- ---- ----"
-colorscheme gruvbox        " I love it that colorscheme
+colorscheme retrobox       " I love it that colorscheme
 set bg=dark                " Background used for highlight color
 set t_Co=256               " Enable 256 colors in Vim
 set fillchars+=vert:\      " Remove ugly vertical lines on window division
