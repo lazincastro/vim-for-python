@@ -39,7 +39,7 @@ Plug 'itchyny/lightline.vim'         " A light and configurable statusline/tabli
 Plug 'airblade/vim-gitgutter'        " Git diff gutter and stages/undoesks
 Plug 'machakann/vim-highlightedyank' " Make the yanked region apparent!
 Plug 'jiangmiao/auto-pairs'          " Vim plugin, insert or delete brackets, parens, quotes in pair
-Plug 'mechatroner/rainbow_csv'       " Highlight columns in CSV and TSV files and run queries in SQL-like language 
+Plug 'mechatroner/rainbow_csv'       " Highlight columns in CSV and TSV files and run queries in SQL-like language
 Plug 'ap/vim-css-color'              " Preview colours in source code while editing
 
 " Tim Pope Section
@@ -211,9 +211,9 @@ ca w!! w !sudo tee "%"
 "---- ---- ---- ---- Plugins Settings ---- ---- ---- ----"
 
 "" Lightline
-let g:lightline = {
-    \ 'colorscheme': 'apprentice',
-    \}
+" let g:lightline = {
+"     \ 'colorscheme': 'wombat',
+"     \}
 
 "" vim-gitgutter
 nmap <silent><F8> :GitGutterToggle<cr>
